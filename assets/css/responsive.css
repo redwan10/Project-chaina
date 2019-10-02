@@ -92,6 +92,11 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  /* header */
+  .header-top-left a.logo img {
+    max-width: 120px;
+    height: auto;
+  }
   .header-top-right {
     position: absolute;
     right: 30px;
