@@ -171,10 +171,45 @@
   .card-area-title {
     align-items: center;
   }
-
-  /* Card Area */
   .card-area-wrap .img-fluid {
     width: 100%;
+  }
+  .card-column .card {
+    margin: 0 10px;
+    margin-bottom: 30px; 
+   }
+   .card-area-title .title {
+    margin: 0 15px;
+    }
+   
+
+
+  /* Sidebar Style */
+  aside.sidebar-wrap {
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    background-color: #f8f9fa;
+    width: 60%;
+    display: none;
+    left: 0;
+    z-index: 9999;
+    padding-left: 15px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  ul.sidebar-link {
+    margin-top: 20px;
+  }
+  .showSidebar i {
+    margin-right: 10px;
+  }
+  .showSidebar {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333333;
   }
 }
 

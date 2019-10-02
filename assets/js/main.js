@@ -16,22 +16,10 @@
       autoplay: false,
       fade: false,
       speed: 300,
-      slidesToShow: 5,
+      slidesToShow: 4,
       slidesToScroll: 1,
       responsive: [{
           breakpoint: 1500,
-          settings: {
-            arrows: true,
-            dots: false,
-            infinite: true,
-            autoplay: false,
-            fade: false,
-            speed: 300,
-            slidesToShow: 5,
-            slidesToScroll: 1
-          }
-        },{
-          breakpoint: 1200,
           settings: {
             arrows: true,
             dots: false,
@@ -43,7 +31,7 @@
             slidesToScroll: 1
           }
         },{
-          breakpoint: 992,
+          breakpoint: 1200,
           settings: {
             arrows: true,
             dots: false,
@@ -55,7 +43,7 @@
             slidesToScroll: 1
           }
         },{
-          breakpoint: 768,
+          breakpoint: 992,
           settings: {
             arrows: true,
             dots: false,
@@ -64,6 +52,18 @@
             fade: false,
             speed: 300,
             slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },{
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            fade: false,
+            speed: 300,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },{
@@ -93,6 +93,11 @@
       $('#sort-by-option').niceSelect();
     });
 
+
+    // Sidebar Toggler
+    $(".sidebarBtn").click(function(){
+      $("#mySidenav").toggle('slow');
+    });
 
 
 })(jQuery);
