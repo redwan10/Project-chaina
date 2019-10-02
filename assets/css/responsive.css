@@ -1,0 +1,187 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+  /* Card Column Style */
+  .sidebar-col{
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .card-column {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .card-column .card {
+    margin: 0 10px;
+    margin-bottom: 30px; 
+   }
+   .card-area-title .title {
+    margin: 0 15px;
+    }
+   .card-area-title .nice-select {
+      margin-right: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* Header Top */
+  .header-top-left a.link {
+    padding: 5px 5px;
+  }
+  .header-top-right ul.top-right-option li button.sign-in {
+    padding: 6px 10px;
+  }
+  .header-top-menu ul li {
+    margin: 0 5px;
+  }
+  /* Card Column Style */
+  .sidebar-col{
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+  .card-column {
+    flex: 0 0 77%;
+    max-width: 77%;
+  }
+  .card-column .card {
+    margin: 0 10px;
+    margin-bottom: 30px; 
+   }
+   .card-area-title .title {
+    margin: 0 15px;
+    }
+   .card-area-title .nice-select {
+      margin-right: 15px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .header-top-right {
+    position: absolute;
+    right: 30px;
+    top: 7px;
+  }
+  .header-top-menu ul li:first-child {
+    margin-left: 10px;
+  }
+
+  /* Card Column Style */
+  .sidebar-col{
+    flex: 0 0 28%;
+    max-width: 28%;
+  }
+  .card-column {
+    flex: 0 0 72%;
+    max-width: 72%;
+  }
+  .card-column .card {
+    margin: 0 10px;
+    margin-bottom: 30px; 
+   }
+   .card-area-title .title {
+    margin: 0 15px;
+    }
+   .card-area-title .nice-select {
+      margin-right: 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .header-top-right {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+  }
+  .navbar-brand {
+    margin-right: 5px;
+  }
+  .header-top-menu ul li:first-child {
+    margin-left: 10px;
+  }
+  .header-top-right {
+    margin-left: 10px;
+  }
+  .header-top-right ul.top-right-option li ul.dropdown-menu {
+    top: 35px;
+    left: -400%;
+  }
+  /* Mobile Menu Style */
+  .mean-container a.meanmenu-reveal {
+    top: -24px;
+    left: 15px !important;
+    right: auto !important;
+  }
+  .mean-container .mean-nav {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  .mean-container .mean-nav ul li a {
+    color: rgb(0,0,0,0.8);
+    border-top: 1px solid rgb(0,0,0,0.8);
+  }
+  .mean-container .mean-nav ul li:first-child a {
+    border-top: none;
+  }
+  .mean-container .mean-nav ul li a:hover {
+    color: rgb(0,0,0,1);
+  }
+  .header-top-left.navbar-brand a.dropdown-toggle {
+    display: none;
+  }
+  /* Card Slider */
+  .card-slider-wrap {
+    background-image: url('../img/slider-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 34px;
+  }
+
+  .card-slider button.slick-arrow.slick-next {
+    right: -22px;
+  }
+  .card-slider button.slick-arrow {
+    left: -22px;
+  }
+  /* Sidebar Style */
+  .content-section-wrap {
+    padding-top: 70px;
+  }
+  .sidebar-wrap {
+    margin-bottom: 50px;
+  }
+  .sidebar-check-form .title h4 {
+    display: inline-block;
+  }
+  /* Card Area */
+  .nice-select {
+    padding-left: 10px;
+    padding-right: 23px;
+  }
+  .card-area-title .title h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .card-area-title {
+    align-items: center;
+  }
+
+  /* Card Area */
+  .card-area-wrap .img-fluid {
+    width: 100%;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .header-top-left.navbar-brand a.dropdown-toggle {
+    display: inline-block;
+  }
+}
