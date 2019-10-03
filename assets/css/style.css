@@ -1,6 +1,20 @@
-/* google fonts */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
-
+/* Custom fonts */
+@font-face {
+  font-family: 'Poppins';
+	src: local('Poppins Regular'), url(../fonts/Poppins-Regular.woff2) format('woff2'),
+			 url(../fonts/Poppins-Regular.woff) format('woff'),
+		 	 url(../fonts/Poppins-Regular.svg) format('svg'),
+			 url(../fonts/Poppins-Regular.eot) format('eot'),
+			 url(../fonts/Poppins-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Work Sans';
+	src: local('Poppins Regular'), url(../fonts/WorkSans-Regular.woff2) format('woff2'),
+			 url(../fonts/WorkSans-Regular.woff) format('woff'),
+		 	 url(../fonts/WorkSans-Regular.svg) format('svg'),
+			 url(../fonts/WorkSans-Regular.eot) format('eot'),
+			 url(../fonts/WorkSans-Regular.ttf) format('ttf');
+}
 /* 1. Theme default css */
  body {
 	font-family: 'Work Sans', sans-serif;
