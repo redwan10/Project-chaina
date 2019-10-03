@@ -129,6 +129,9 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  aside.sidebar-wrap.sticky-top{
+    position: relative !important;
+  }
   /* header */
   .header-top-left a.logo img {
     max-width: 120px;

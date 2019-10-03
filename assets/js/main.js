@@ -97,3 +97,17 @@
 
 
 })(jQuery);
+
+
+
+
+var scrollAmount = 450;
+
+$(window).on('scroll', function(){
+  if($(window).scrollTop()>=scrollAmount && !$('aside').hasClass('sticky-top')){
+    $('aside').addClass('sticky-top'); 
+  }
+  else if($(window).scrollTop()<scrollAmount && $('aside').hasClass('sticky-top')){
+     $('aside').removeClass('sticky-top') 
+  }
+});

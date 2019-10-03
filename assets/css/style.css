@@ -430,7 +430,10 @@ header.sticky-top {
 
 /* Side Bar Area */
 aside.sidebar-wrap {
-    padding-top: 15px;
+	padding-top: 15px;
+}
+aside.sidebar-wrap.sticky-top {
+	top: 80px !important;
 }
 ul.sidebar-link{
 	margin-bottom: 30px;
