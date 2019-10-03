@@ -67,6 +67,13 @@
   .header-top-menu ul li {
     margin: 0 5px;
   }
+  /* Card Slider Style */
+  .single-card-slide .slider-title h4 {
+    font-size: 15px;
+  }
+  .single-card-slide .slider-title a.category {
+    font-size: 14px;
+  }
   /* Card Column Style */
   .sidebar-col{
     flex: 0 0 23%;
