@@ -79,7 +79,7 @@
     padding: 6px 10px;
   }
   .header-top-menu ul li {
-    margin: 0 5px;
+    margin: 0 4px;
   }
   /* Card Slider Style */
   .single-card-slide .slider-title h4 {
@@ -146,6 +146,7 @@
     .d-nonePRIVILAGES {
       display: none !important;
     }
+
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -237,6 +238,9 @@
   .header-top-menu ul li .dropdown-menu {
     background-color: #ebf0f5;
     border: none;
+  }
+  .header-top-right ul.top-right-option li ul.dropdown-menu.bor {
+    left: -605% !important;
   }
     
   /* Card Slider */
