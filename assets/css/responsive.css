@@ -315,4 +315,7 @@
   .header-top-left.navbar-brand a.dropdown-toggle {
     display: inline-block;
   }
+  aside.sidebar-wrap.sticky-top {
+    position: relative !important;
+  }
 }
