@@ -43,7 +43,7 @@
                 <!-- Get Start Dropdown -->
                 <ul class="d-inline-block pl-lg-1 pl-xl-4 pl-4">
                   <li>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="link d-none d-sm-inline-block">Get started</a>
+                    <a class="dropdown-toggle link d-none d-sm-inline-block" data-toggle="dropdown" href="#">Get started</a>
                     <ul class="dropdown-menu">
                       <li><a href="#">Drop-down-1</a></li>
                       <li><a href="#">Drop-down-2</a></li>
@@ -59,6 +59,15 @@
               <!-- Header Top Menu -->
               <div class="header-top-menu ml-auto mr-2 collapse navbar-collapse" id="headerTopNav">
                 <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <!-- Get Start Dropdown -->
+                    <a class="dropdown-toggle get-start link d-block d-sm-none" data-toggle="dropdown" href="#">Get started</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Drop-down-1</a></li>
+                      <li><a href="#">Drop-down-2</a></li>
+                      <li><a href="#">Drop-down-3</a></li>
+                    </ul>
+                  </li>
                   <li class="nav-item"><a class="nav-link PRIVILAGES dropdown-toggle" href="#" data-toggle="dropdown">PRIVILAGES</a>
                     <!-- Drop Down Menu -->
                     <ul class="dropdown-menu d-nonePRIVILAGES">
@@ -91,9 +100,16 @@
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#"><i class="fas fa-folder-plus"></i></a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-folder-plus"></i></a>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown-menu bor">
+                      <li><a href="#">Drop-down-1</a></li>
+                      <li><a href="#">Drop-down-2</a></li>
+                      <li><a href="#">Drop-down-3</a></li>
+                    </ul>
+                  </li>
                   <li><a href="#"><i class="fas fa-bell"></i></a></li>
-                  <li><a href="#" class="d-inline-block d-lg-none"><i class="fas fa-user-circle"></i></a></li>
+                  <li class="d-inline-block d-lg-none"><a href="#" class="d-inline-block d-lg-none"><i class="fas fa-user-circle"></i></a></li>
                   <li><button type="button" class="sign-in d-none d-lg-inline-block"><i class="fas fa-user-circle"></i>Sign in</button></li>
                 </ul>
               </div>
@@ -108,7 +124,7 @@
   <!-- Header End -->
 
     <!-- Main Nav Area -->
-    <div class="main-menu-wrapper pt-4 pb-4 d-none d-md-block">
+    <div class="main-menu-wrapper pt-4 pb-4 d-none d-md-block" id="top">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-6">
@@ -278,6 +294,7 @@
     </div>
   </section>
   <!-- Slider Area End -->
+
 
   <!-- Content Section -->
   <section class="content-section-wrap">
@@ -735,7 +752,8 @@
   </section>
   <!-- Content Section end -->
   
-  
+  <!-- back Top top Btn -->
+  <a href="#top" id="topbtnDiv" class="backTop"><i class="fas fa-arrow-alt-circle-up"></i></a>
 
 <!-- Code end -->
 

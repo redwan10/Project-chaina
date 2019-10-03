@@ -111,3 +111,14 @@ $(window).on('scroll', function(){
      $('aside').removeClass('sticky-top') 
   }
 });
+
+var vtnScroll = 450;
+
+$(window).on('scroll', function(){
+  if($(window).scrollTop()>=vtnScroll && !$('#topbtnDiv').hasClass('d-inline-block')){
+    $('#topbtnDiv').addClass('d-inline-block'); 
+  }
+  else if($(window).scrollTop()<vtnScroll && $('#topbtnDiv').hasClass('d-inline-block')){
+     $('#topbtnDiv').removeClass('d-inline-block') 
+  }
+});

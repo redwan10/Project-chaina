@@ -3,6 +3,13 @@
 
 /* More Extra large devices (large desktops, 1200px and up) */
 @media (min-width:1500px){ 
+  /* Header TOp */
+  .header-top-right ul.top-right-option li {
+    margin: 0px 14px;
+  }
+  .header-top-right ul.top-right-option li:first-child {
+    margin-left: 30px;
+  }
   /* Card Column Style */
   .sidebar-col{
     flex: 0 0 16%;
@@ -30,6 +37,13 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
+  /* Header TOp */
+  .header-top-right  ul.top-right-option li {
+    margin: 0px 14px;
+  }
+  .header-top-right > ul.top-right-option > li:first-child {
+    margin-left: 30px;
+  }
   /* Card Column Style */
   .sidebar-col{
     flex: 0 0 20%;
@@ -189,13 +203,13 @@
   .header-top-left.navbar-brand a.dropdown-toggle {
     display: none;
   }
-  .header-top-menu ul li a.PRIVILAGES {
+  .header-top-menu ul li a.dropdown-toggle {
     position: relative;
   }
-  .header-top-menu ul li a.PRIVILAGES::after {
+  .header-top-menu ul li a.dropdown-toggle::after {
     display: none;
   }
-  .header-top-menu ul li a.PRIVILAGES::before {
+  .header-top-menu ul li a.dropdown-toggle::before {
     position: absolute;
     content: ">";
     font-size: 16px;
@@ -213,13 +227,17 @@
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
   }
-  .header-top-menu ul li.show a.PRIVILAGES::before {
+  .header-top-menu ul li.show a.dropdown-toggle::before {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-}
+  }
+  .header-top-menu ul li .dropdown-menu {
+    background-color: #ebf0f5;
+    border: none;
+  }
     
   /* Card Slider */
   .card-slider-wrap {
@@ -285,9 +303,16 @@
     .card-body a h4 {
       font-size: 14px;
     }
+    .content-section-wrap {
+      padding-top: 15px;
+    }
+    .recommended-card-title {
+      padding-bottom: 25px;
+    }
 
 
   /* Sidebar Style */
+  
   aside.sidebar-wrap {
     padding-top: 15px;
     position: fixed;
