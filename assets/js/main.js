@@ -1,10 +1,6 @@
 (function($){
     "use strict";
-    // Mobile menu 
-    jQuery('#mobile-menu-active').meanmenu({
-        meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "768"
-    });
+    
 
     // card slider
     $('.card-slider').slick({

@@ -1,6 +1,33 @@
 
 /* ***Responsive media query*** */
 
+/* More Extra large devices (large desktops, 1200px and up) */
+@media (min-width:1500px){ 
+  /* Card Column Style */
+  .sidebar-col{
+    flex: 0 0 16%;
+    max-width: 16%;
+  }
+  .card-column {
+    flex: 0 0 84%;
+    max-width: 84%;
+  }
+  .card-column .card {
+    margin: 0 10px;
+    margin-bottom: 30px; 
+   }
+   .card-area-title .title {
+    margin: 0 15px;
+    }
+   .card-area-title .nice-select {
+      margin-right: 15px;
+    }
+    .d-nonePRIVILAGES {
+      display: none !important;
+    }
+}
+
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
   /* Card Column Style */
@@ -22,6 +49,10 @@
    .card-area-title .nice-select {
       margin-right: 15px;
     }
+    .d-nonePRIVILAGES {
+      display: none !important;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -54,6 +85,9 @@
     }
    .card-area-title .nice-select {
       margin-right: 15px;
+    }
+    .d-nonePRIVILAGES {
+      display: none !important;
     }
 }
 
@@ -88,6 +122,9 @@
    .card-area-title .nice-select {
       margin-right: 15px;
     }
+    .d-nonePRIVILAGES {
+      display: none !important;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -114,6 +151,7 @@
   .header-top-right ul.top-right-option li ul.dropdown-menu {
     top: 35px;
     left: -400%;
+    padding-left: 7px;
   }
   /* Mobile Menu Style */
   .mean-container a.meanmenu-reveal {
@@ -140,6 +178,38 @@
   .header-top-left.navbar-brand a.dropdown-toggle {
     display: none;
   }
+  .header-top-menu ul li a.PRIVILAGES {
+    position: relative;
+  }
+  .header-top-menu ul li a.PRIVILAGES::after {
+    display: none;
+  }
+  .header-top-menu ul li a.PRIVILAGES::before {
+    position: absolute;
+    content: ">";
+    font-size: 16px;
+    color: #000;
+    right: 0;
+    top: 10px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+  }
+  .header-top-menu ul li.show a.PRIVILAGES::before {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+    
   /* Card Slider */
   .card-slider-wrap {
     background-image: url('../img/slider-bg.jpg');
@@ -153,6 +223,21 @@
   }
   .card-slider button.slick-arrow {
     left: -22px;
+  }
+  .recommended-card-title h4 {
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .recommended-card-title p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .single-card-slide .slider-title h4 {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .single-card-slide .slider-title a.category {
+    font-size: 14px;
   }
   /* Sidebar Style */
   .content-section-wrap {
@@ -186,7 +271,9 @@
    .card-area-title .title {
     margin: 0 15px;
     }
-   
+    .card-body a h4 {
+      font-size: 14px;
+    }
 
 
   /* Sidebar Style */
@@ -202,6 +289,7 @@
     padding-left: 15px;
     height: 100vh;
     overflow-y: scroll;
+    padding-top: 70px;
   }
   ul.sidebar-link {
     margin-top: 20px;

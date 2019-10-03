@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="assets/css/slick.css">
   <link rel="stylesheet" href="assets/css/nice-select.css">
-  <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/default.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -31,7 +30,7 @@
     ******************************** -->
 
   <!-- Header -->
-  <header>
+  <header class="sticky-top">
     <!-- Header Top Area -->
     <div class="header-top-wrapper">
       <div class="container-fluid">
@@ -42,12 +41,16 @@
                 <!-- Site Logo -->
                 <a href="#" class="logo"><img src="assets/img/logo.png" alt="Logo"></a>
                 <!-- Get Start Dropdown -->
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="link d-none d-sm-inline-block">Get started</a>
-                <div class="dropdown-menu">
-                  <a href="#">Drop-down-1</a>
-                  <a href="#">Drop-down-2</a>
-                  <a href="#">Drop-down-3</a>
-                </div>
+                <ul class="d-inline-block pl-lg-1 pl-4">
+                  <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" class="link d-none d-sm-inline-block">Get started</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Drop-down-1</a></li>
+                      <li><a href="#">Drop-down-2</a></li>
+                      <li><a href="#">Drop-down-3</a></li>
+                    </ul>
+                  </li>
+                </ul>  
               </div>
               <!-- Toggler Btn -->
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerTopNav" aria-controls="headerTopNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +59,17 @@
               <!-- Header Top Menu -->
               <div class="header-top-menu ml-auto mr-2 collapse navbar-collapse" id="headerTopNav">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link" href="#">PRIVILAGES</a></li>
+                  <li class="nav-item"><a class="nav-link PRIVILAGES dropdown-toggle" href="#" data-toggle="dropdown">PRIVILAGES</a>
+                    <!-- Drop Down Menu -->
+                    <ul class="dropdown-menu d-nonePRIVILAGES">
+                      <li><a href="#">HOTELS</a></li>
+                      <li><a href="#">LIFESTYLE</a></li>
+                      <li><a href="#">TRAVEL</a></li>
+                      <li><a href="#">BUSINESS</a></li>
+                      <li><a href="#">ALL BENEFITS</a></li>
+                      <li><a href="#">EVENTS</a></li>
+                    </ul>
+                  </li>
                   <li class="nav-item"><a class="nav-link" href="#">NETWORK</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">COMPANIES</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">EVENTS</a></li>
@@ -91,13 +104,16 @@
       </div>
     </div>
     <!-- Header Top Area End -->
+  </header>
+  <!-- Header End -->
+
     <!-- Main Nav Area -->
-    <div class="main-menu-wrapper pt-4 pb-4">
+    <div class="main-menu-wrapper pt-4 pb-4 d-none d-md-block">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-6">
             <!-- Main Menu -->
-            <nav class="main-menu" id="mobile-menu-active">
+            <nav class="main-menu">
               <ul class="d-md-flex justify-content-md-between">
                 <li><a href="#">HOTELS</a></li>
                 <li><a href="#">LIFESTYLE</a></li>
@@ -117,8 +133,6 @@
       </div>
     </div>
     <!-- Main Nav Area End -->
-  </header>
-  <!-- Header End -->
 
 
   <!-- Slider Area -->
@@ -732,7 +746,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- Plugins -->
 <script src="assets/js/slick.min.js"></script>
-<script src="assets/js/jquery.meanmenu.min.js"></script>
 <script src="assets/js/jquery.nice-select.min.js"></script>
 <script src="assets/js/plugin.js"></script>
 <!-- Custom JS -->

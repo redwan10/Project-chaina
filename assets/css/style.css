@@ -106,6 +106,9 @@ a{
 /* Custom css start */
 
 /* Header Top */
+header.sticky-top {
+	z-index: 99999999999999999999;
+}
 .header-top-wrapper {
 	background-color: #fff;
 	-webkit-box-shadow: 0px 5px 42px -28px rgba(0,0,0,0.4);
@@ -118,7 +121,7 @@ a{
 	padding: 10px 0;
 }
 .header-top-left a.logo img {
-	max-width: 180px;
+	max-width: 165px;
 	height: auto;
 }
 .header-top-left a.link {
@@ -137,7 +140,9 @@ a{
 	margin-left: 5px;
 	font-size: 16px;
 }
-
+.header-top-left ul li {
+	position: relative;
+}
 
 
 
@@ -184,26 +189,26 @@ a{
 	-o-transform: rotate(-90deg);
 }
 .header-top-left.navbar-brand .dropdown-menu {
-	top: 70%;
+	top: 100%;
 	left: 7%;
 	width: 1.7em;
 	padding: 0;
 	text-align: center;
 }
-
-.header-top-left.navbar-brand .dropdown-menu a {
-	display: block;
+.header-top-left.navbar-brand .dropdown-menu li {
 	border-bottom: 1px solid #ccc;
+}
+.header-top-left.navbar-brand .dropdown-menu li:last-child {
+	border-bottom: none;
+}
+.header-top-left.navbar-brand .dropdown-menu li a {
+	display: block;
 	padding: 6px;
 	font-size: 14px;
 }
 
 .header-top-left.navbar-brand .dropdown-menu a:hover {
 	background-color: #f5f4f4;
-}
-
-.header-top-left.navbar-brand .dropdown-menu a:last-child {
-	border-bottom: none;
 }
 
 
@@ -253,6 +258,12 @@ a{
 	background-color: #0014ff;
 }
 
+.header-top-menu ul li ul li {
+	display: block;
+}
+.header-top-menu ul li a.PRIVILAGES::after {
+	display: none;
+}
 .header-top-right ul.top-right-option li ul.dropdown-menu{
 	border: none;
 	width: 230px;
