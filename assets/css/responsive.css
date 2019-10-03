@@ -131,6 +131,7 @@
 @media (max-width: 767.98px) { 
   aside.sidebar-wrap.sticky-top{
     position: relative !important;
+    top: 0 !important;
   }
   /* header */
   .header-top-left a.logo img {
@@ -316,6 +317,7 @@
     display: inline-block;
   }
   aside.sidebar-wrap.sticky-top {
-    position: relative !important;
+    position: fixed !important;
+    top: 0 !important;
   }
 }
