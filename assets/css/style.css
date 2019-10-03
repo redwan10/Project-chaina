@@ -118,6 +118,7 @@ a{
 	right: 20px;
 	font-size: 22px;
 	border: none;
+	display: none;
 	background-color: #fff;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
