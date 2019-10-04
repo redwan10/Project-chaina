@@ -87,6 +87,10 @@
   .header-top-menu ul li {
     margin: 0 4px;
   }
+  .dropdown-menu.user-option {
+    left: -103% !important;
+    top: 140% !important;
+  }
   /* Card Slider Style */
   .single-card-slide .slider-title h4 {
     font-size: 15px;
@@ -121,6 +125,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+  .header-top-right ul.top-right-option li ul.dropdown-menu.search-bar {
+    top: 115%;
+  }
   .header-top-wrapper .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -149,7 +156,11 @@
   .header-top-menu ul li:first-child {
     margin-left: 10px;
   }
-
+  .dropdown-menu.user-option {
+    left: -800% !important;
+    top: 135% !important;
+    width: 190px !important;
+  }
   /* Card Column Style */
   .sidebar-col{
     flex: 0 0 28%;
@@ -216,6 +227,11 @@
     left: -400%;
     padding-left: 7px;
   }
+  .dropdown-menu.user-option {
+    left: -800% !important;
+    top: 120% !important;
+    width: 190px !important;
+  }
   /* Mobile Menu Style */
   .mean-container a.meanmenu-reveal {
     top: -24px;
@@ -277,17 +293,20 @@
     border: none;
   }
   .header-top-right ul.top-right-option li ul.dropdown-menu.bor {
-    left: -605% !important;
+    left: -660% !important;
     top: 124%;
   }
-
+  .header-top-right ul.top-right-option li ul.dropdown-menu.search-bar {
+    top: 125%;
+    left: -500%;
+  }
     
   /* Card Slider */
   .card-slider-wrap {
     background-image: url('../img/slider-bg.jpg');
     background-size: cover;
     background-position: center;
-    padding: 40px 34px;
+    padding: 20px 34px;
   }
 
   .card-slider button.slick-arrow.slick-next {
@@ -296,11 +315,11 @@
   .card-slider button.slick-arrow {
     left: -22px;
   }
-  .recommended-card-title h4 {
+  .recommended-section-title h4 {
     line-height: 24px;
-    font-size: 16px;
+    font-size: 14px;
   }
-  .recommended-card-title p {
+  .recommended-section-title p {
     font-size: 14px;
     line-height: 24px;
   }
@@ -349,7 +368,7 @@
     .content-section-wrap {
       padding-top: 15px;
     }
-    .recommended-card-title {
+    .recommended-section-title {
       padding-bottom: 25px;
     }
 
@@ -396,10 +415,11 @@
     top: 0 !important;
   }
   .header-top-right ul.top-right-option li ul.dropdown-menu.bor {
-    left: -605% !important;
+    left: -660% !important;
     top: 140%;
   }
   .header-top-left.navbar-brand .dropdown-menu {
     top: 132%;
   }
+  
 }

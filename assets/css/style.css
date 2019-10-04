@@ -338,6 +338,42 @@ header.sticky-top {
 	font-size: 16px;
 	padding-left: 10px;
 }
+.top-right-option .dropdown-toggle::after {
+	display: none;
+}
+.dropdown-menu.user-option {
+	left: -85% !important;
+	top: 135% !important;
+	width: 190px !important;
+}
+.dropdown-menu.user-option .user-img {
+	width: 60px;
+	margin: 0 auto;
+}
+.dropdown-menu.user-option .user-content p {
+	font-size: 12px;
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.dropdown-menu.user-option .user-content h6 {
+	margin-bottom: 2px;
+}
+.user-content a.user-btn {
+	font-size: 14px !important;
+	background-color: #fff;
+	border: 1px solid blue;
+	display: inline-block !important;
+	color: blue;
+	font-weight: 600;
+	padding: 0 10px !important;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.user-content a.user-btn:hover {
+	color: #fff;
+	background-color: blue;
+	
+}
 /* Header Top End */
 
 /* Header Nav */
@@ -360,25 +396,25 @@ header.sticky-top {
 
 
 /* Section Title */
-.recommended-card-title {
+.recommended-section-title {
 	padding-bottom: 40px;
 }
-.recommended-card-title p span {
+.recommended-section-title p span {
 	color: #fff;
 }
 
-.recommended-card-title p {
+.recommended-section-title p {
 	color: #fff;
 	font-size: 16px;
 	margin-bottom: 0;
 	line-height: 26px;
 }
 
-.recommended-card-title p a {
+.recommended-section-title p a {
 	color: #4988CD;
 	font-size: 14px;
 }
-.recommended-card-title h4 {
+.recommended-section-title h4 {
 	color: #fff;
 	line-height: 26px;
 	text-transform: uppercase;
