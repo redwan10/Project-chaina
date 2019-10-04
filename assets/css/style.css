@@ -105,7 +105,9 @@ a{
 .bg-gray-light {
 	background-color: #f8f9fa;
 }
-
+.sticky-top {
+	z-index: 102;
+}
 /* Custom css start */
 
 /* Button To Top */
@@ -132,7 +134,7 @@ a{
 
 /* Header Top */
 header.sticky-top {
-	z-index: 99999999999999999999;
+	z-index: 109;
 }
 .header-top-wrapper {
 	background-color: #fff;
@@ -862,5 +864,26 @@ ul.sidebar-link li a:hover {
 	margin-bottom: 15px;
 }
 /* Banner Section End */
+
+
+/* Custom css start */
+.about-slider .slick-arrow {
+	background: transparent;
+	border: none;
+	position: absolute;
+	left: -22px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+
+.about-slider .slick-arrow.slick-next {
+	left: auto;
+	right: -22px;
+}
+
+.slick-slide:focus{
+outline: none;
+}
 
 /********************* Single-Page.html Design Start *********************/

@@ -131,10 +131,6 @@
   .header-top-right ul.top-right-option li ul.dropdown-menu.search-bar {
     top: 115%;
   }
-  .header-top-wrapper .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .header-top-navbar .navbar-brand {
     padding-left: 15px;
   }
@@ -193,14 +189,14 @@
     .banner-sectios-links-wrap {
       top: 375px;
     }
+    /* About Section */
+    .about-founder.pt-110 {
+      padding-top: 205px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  .header-top-wrapper .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .header-top-navbar .navbar-brand {
     padding-left: 15px;
   }
@@ -392,7 +388,7 @@
     width: 60%;
     display: none;
     left: 0;
-    z-index: 9999;
+    z-index: 102;
     padding-left: 15px;
     height: 100vh;
     overflow-y: scroll;
@@ -414,7 +410,7 @@
 
   /* Single Page Design */
   .card-area-wrap.sigle-page .title h4 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
 
@@ -424,6 +420,30 @@
   }
   .banner-sectios-links-wrap {
     position: static;
+  }
+  /* Foundars Card */
+  .founders-card-title h4 {
+    font-size: 20px;
+  }
+
+  /* About Us Section */
+  .about-founder {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about-title h3 {
+    font-size: 18px;
+  }
+  .about-text p {
+    font-size: 14px;
+  }
+  /* Review Section */
+  .review-area {
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  .review-area h2 {
+    font-size: 18px;
   }
 }
 
