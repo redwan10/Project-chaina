@@ -120,6 +120,9 @@
     .d-nonePRIVILAGES {
       display: none !important;
     }
+
+    /* Single Page Design */
+    
 }
 
 
@@ -184,6 +187,12 @@
       display: none !important;
     }
 
+
+    /* Single Page Design */
+    /* Banner Section */
+    .banner-sectios-links-wrap {
+      top: 375px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -401,6 +410,20 @@
     font-size: 18px;
     text-transform: capitalize;
     color: #333333;
+  }
+
+  /* Single Page Design */
+  .card-area-wrap.sigle-page .title h4 {
+    font-size: 14px;
+  }
+
+
+  /* Single Page Design */
+  .banner-section-wrapper {
+    max-height: 100%;
+  }
+  .banner-sectios-links-wrap {
+    position: static;
   }
 }
 

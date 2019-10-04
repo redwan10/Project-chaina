@@ -310,7 +310,7 @@ header.sticky-top {
 	width: 230px;
 	left: -115px;
 	padding-left: 7px;
-	top: 160%;
+	top: 145%;
 }
 
 
@@ -372,7 +372,7 @@ header.sticky-top {
 .user-content a.user-btn:hover {
 	color: #fff;
 	background-color: blue;
-	
+
 }
 /* Header Top End */
 
@@ -394,6 +394,10 @@ header.sticky-top {
 
 /* Header nav End */
 
+
+
+
+/********************* index.html Design Start *********************/
 
 /* Section Title */
 .recommended-section-title {
@@ -736,3 +740,127 @@ ul.sidebar-link li a:hover {
 	font-size: 14px;
 }
 /* Card Style End */
+
+
+/********************* index.html Design End *********************/
+
+
+
+/********************* Single-Page.html Design Start *********************/
+
+/* Banner Section */
+.banner-section-wrapper {
+	background-image: url('../img/slider-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0;
+	position: relative;
+	max-height: 470px;
+}
+.banner-section-wrapper::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.6;
+}
+.banner-sectios-links-wrap {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 405px;
+}
+
+.banner-sectios-links-wrap a {
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 16px;
+}
+.banner-sectios-links-wrap a i {
+	margin-right: 5px;
+	font-size: 18px;
+}
+.founders-card-wrap {
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+	box-shadow: 0 0 22px -5px #b4c4d6;
+	-webkit-box-shadow: 0 0 22px -5px #b4c4d6;
+	-moz-box-shadow: 0 0 22px -5px #b4c4d6;
+	-ms-box-shadow: 0 0 22px -5px #b4c4d6;
+	-o-box-shadow: 0 0 22px -5px #b4c4d6;
+	padding: 0 15px;
+	padding-bottom: 70px;
+	position: relative;
+	z-index: 1;
+}
+.founders-card-title {
+	position: relative;
+	padding-bottom: 5px;
+}
+.founders-card-title::before {
+	position: absolute;
+	content: '';
+	background-color: rgb(218, 218, 218);
+	width: 80px;
+	height: 1px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.founders-card-title h4 {
+	color: #242424;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+.founders-card-wrap p {
+	font-size: 13px;
+	margin-bottom: 20px;
+	line-height: 24px;
+	color: #242424;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.founders-card-price {
+	border-bottom: 1px solid rgb(218, 218, 218);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.founders-card-price p {
+	font-size: 14px;
+	color: #333;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	line-height: 18px;
+}
+.founders-card-price a {
+	display: inline-block;
+	background-color: black;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 0 15px;
+	border: 2px solid transparent;
+	line-height: 46px;
+	height: 50px;
+	text-transform: capitalize;
+}
+.founders-card-price a:hover {
+	color: black;
+	border-color: black;
+	background-color: #fff;
+}
+.founders-card-details h6 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+/* Banner Section End */
+
+/********************* Single-Page.html Design Start *********************/
